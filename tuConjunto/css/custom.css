@@ -1,0 +1,191 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 15, 2016, 3:30:12 PM
+    Author     : programador5
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.cambio input[type=button]{
+    background: #f8ac59;
+    color: white;
+    size: b4;
+    padding: 6px 12px;
+}
+
+.gly .fa-briefcase{
+    margin-top: 6px;
+}
+
+.landing-page .navbar-default .navbar-brand {
+    font-size: 2em !important;
+    padding: 15px 75px 20px 75px !important;
+}
+
+.menu1, .menu2 {
+    margin-top: 20px;
+}
+
+.titulo1, .titulo2 {
+    margin-top: 20px !important;
+}
+
+.video .iframe {
+    width: auto; 
+    height: 100%;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    border: 1px solid #e5e5e5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+thead{
+    background: #167F92 !important;
+    color: white !important;
+}
+
+.sort-link{
+    color:white;
+}
+
+.sort-link:hover{
+    color:white;
+}
+
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #EAF3F3;
+}
+
+
+
+.form-controlv2 {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #e5e6e7;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 50%;
+    font-size: 14px;
+}
+
+.hr-line-dashed {
+    border-top: 1px dashed #e7eaec;
+    color: #ffffff;
+    background-color: #bfbfbf;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.titulo {
+    background-color: #21C6CE;
+    color: #FFF;
+}
+
+.global {
+    background-color: #387ABA;
+    color: #FFF;
+}
+
+.calendario {
+    background-color: #38B1BA;
+    color: #FFF;
+}
+
+.subtitulo {
+    text-align: center;
+    size: 15px;
+}
+
+.ver {
+    background: #F38630 !important;
+    border:1px solid #F38630 !important;
+}
+
+div.view{
+    border: 1px solid #000;
+}
+
+.fc-event-time, .fc-event-title {
+    color: #FFF !important;
+}
+
+.font_titulo {
+    font-family: Montserrat !important;
+    font-size: 50px;
+    color: #167f92;
+    text-shadow: -1px 0 #167f92, 0 1px #167f92, 1px 0 #167f92, 0 -1px #167f92;
+}
+
+.font_texto {
+    font-family: Montserrat !important;
+}
+
+
+.font_titulo2 {
+    font-family: Oswald !important;
+}
+
+.btn-danger, .btn-default, .btn-info, .btn-primary, .btn-success, .btn-warning {
+    font-family: Oswald !important;
+}
+
+#botongrande{
+    text-align: right;
+    margin-top: 20px;
+    padding: 10px 35px !important;
+    font-size: 15px;
+} 
+
+
+/*#botongrande .btn-primary, .btn-success{
+    padding: 10px 35px !important;
+    font-size: 15px;
+}*/
+
+ul.nav.navbar-top-links.navbar-header {
+    margin-left: 30% !important;
+}
+
+.divanuncio{
+  clear: both;
+  word-wrap: break-word;
+  background-color: white;
+}
+
+.divforo{
+  clear: both;
+  word-wrap: break-word;
+  background-color: white;
+  border-right: 1px dashed ;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: #000000;
+}
+
+
+.panel-default>.panel-heading { 
+    color: #f9f9f9 !important;
+    background-color: #167f92 !important;
+    border-color: #ddd;   
+    
+}
+/*Media Query*/
+/*@media only screen and(max-width:500px){
+    .video .iframe {
+        width: auto !important; 
+        height: 100% !important;
+    }
+}*/
